@@ -1,0 +1,30 @@
+import java.util.Arrays;
+
+/**
+ * LeetCode 238: Product of Array Except Self
+ * https://leetcode.com/problems/product-of-array-except-self/
+ *
+ * Time: O(n)
+ * Extra space: O(1), excluding the output array
+ */
+class Solution {
+    public int[] productExceptSelf(int[] nums) {
+        int[] result = new int[nums.length];
+        Arrays.fill(result, 1);
+
+        int prefix = 1;
+        int postfix = 1;
+
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = prefix;
+            prefix *= nums[i];
+        }
+
+        for (int i = nums.length - 1; i >= 0; i--) {
+            result[i] *= postfix;
+            postfix *= nums[i];
+        }
+
+        return result;
+    }
+}
