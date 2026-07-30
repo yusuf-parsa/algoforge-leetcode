@@ -53,54 +53,96 @@ Each solution includes:
 | 11 | [Container With Most Water](solutions/two-pointers/java/0011-container-with-most-water.java) | Two Pointers | Java | O(n) | O(1) |
 | 13 | [Roman to Integer](solutions/strings/java/0013-roman-to-integer.java) | Strings / Simulation | Java | O(n) | O(n) |
 | 14 | [Longest Common Prefix](solutions/strings/java/0014-longest-common-prefix.java) | Strings | Java | O(n × m) | O(1) |
+| 15 | [3Sum](solutions/two-pointers/java/0015-3sum.java) | Two Pointers / Sorting | Java | O(n²) | O(r) |
+| 17 | [Letter Combinations of a Phone Number](solutions/backtracking/java/0017-letter-combinations-of-a-phone-number.java) | Backtracking | Java | O(4ⁿ × n) | O(4ⁿ × n) including output |
+| 19 | [Remove Nth Node From End of List](solutions/linked-lists/java/0019-remove-nth-node-from-end-of-list.java) | Linked List | Java | O(n) | O(1) |
 | 20 | [Valid Parentheses](solutions/stacks-and-queues/java/0020-valid-parentheses.java) | Stack | Java | O(n) | O(n) |
 | 22 | [Generate Parentheses](solutions/backtracking/java/0022-generate-parentheses.java) | Backtracking | Java | O(4ⁿ / √n) | O(n) auxiliary |
+| 24 | [Swap Nodes in Pairs](solutions/linked-lists/java/0024-swap-nodes-in-pairs.java) | Linked List / Recursion | Java | O(n) | O(n) |
 | 26 | [Remove Duplicates from Sorted Array](solutions/arrays/java/0026-remove-duplicates-from-sorted-array.java) | Arrays / Ordered Set | Java | O(n log n) | O(n) |
 | 27 | [Remove Element](solutions/arrays/java/0027-remove-element.java) | Arrays / Two Pointers | Java | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](solutions/strings/java/0028-find-the-index-of-the-first-occurrence-in-a-string.java) | Strings | Java | O(n × m) | O(1) |
 | 31 | [Next Permutation](solutions/arrays/java/0031-next-permutation.java) | Arrays / Two Pointers | Java | O(n) | O(1) |
+| 33 | [Search in Rotated Sorted Array](solutions/binary-search/java/0033-search-in-rotated-sorted-array.java) | Binary Search | Java | O(log n) | O(1) |
 | 35 | [Search Insert Position](solutions/binary-search/java/0035-search-insert-position.java) | Binary Search | Java | O(log n) | O(1) |
+| 36 | [Valid Sudoku](solutions/matrices/java/0036-valid-sudoku.java) | Matrix / Hash Set | Java | O(1) | O(1) |
+| 39 | [Combination Sum](solutions/backtracking/java/0039-combination-sum.java) | Backtracking | Java | Exponential | O(target / minimum candidate) auxiliary |
+| 40 | [Combination Sum II](solutions/backtracking/java/0040-combination-sum-ii.java) | Backtracking | Java | O(2ⁿ) | O(n) auxiliary |
 | 41 | [First Missing Positive](solutions/arrays/java/0041-first-missing-positive.java) | Arrays / In-place Hashing | Java | O(n) | O(1) |
 | 42 | [Trapping Rain Water](solutions/arrays/java/0042-trapping-rain-water.java) | Arrays / Prefix Maximum | Java | O(n) | O(n) |
+| 43 | [Multiply Strings](solutions/strings/java/0043-multiply-strings.java) | Strings / Math | Java | O(n × m) | O(n + m) |
+| 46 | [Permutations](solutions/backtracking/java/0046-permutations.java) | Backtracking | Java | O(n × n!) | O(n) auxiliary |
 | 49 | [Group Anagrams](solutions/strings/java/0049-group-anagrams.java) | Strings / Hash Map | Java | O(n × k) | O(n × k) |
+| 53 | [Maximum Subarray](solutions/dynamic-programming/java/0053-maximum-subarray.java) | Dynamic Programming / Kadane | Java | O(n) | O(1) |
 | 54 | [Spiral Matrix](solutions/matrices/java/0054-spiral-matrix.java) | Matrix / Simulation | Java | O(m × n) | O(1) extra |
 | 58 | [Length of Last Word](solutions/strings/java/0058-length-of-last-word.java) | Strings | Java | O(n) | O(n) |
+| 59 | [Spiral Matrix II](solutions/matrices/java/0059-spiral-matrix-ii.java) | Matrix / Simulation | Java | O(n²) | O(1) extra |
+| 62 | [Unique Paths](solutions/dynamic-programming/java/0062-unique-paths.java) | Dynamic Programming | Java | O(m × n) | O(m × n) |
 | 66 | [Plus One](solutions/arrays/java/0066-plus-one.java) | Arrays / Math | Java | O(n) | O(1) extra |
+| 70 | [Climbing Stairs](solutions/dynamic-programming/java/0070-climbing-stairs.java) | Dynamic Programming | Java | O(n) | O(n) |
+| 72 | [Edit Distance](solutions/dynamic-programming/java/0072-edit-distance.java) | Dynamic Programming | Java | O(m × n) | O(m × n) |
+| 73 | [Set Matrix Zeroes](solutions/matrices/java/0073-set-matrix-zeroes.java) | Matrix / Flags | Java | O(m × n) | O(m + n) |
+| 74 | [Search a 2D Matrix](solutions/binary-search/java/0074-search-a-2d-matrix.java) | Matrix / Search | Java | O(m + n) | O(1) |
+| 76 | [Minimum Window Substring](solutions/sliding-window/java/0076-minimum-window-substring.java) | Sliding Window | Java | O(s + t) | O(1) |
+| 78 | [Subsets](solutions/backtracking/java/0078-subsets.java) | Backtracking | Java | O(n × 2ⁿ) | O(n × 2ⁿ) including output |
+| 79 | [Word Search](solutions/backtracking/java/0079-word-search.java) | Backtracking / DFS | Java | O(m × n × 4ᴸ) | O(L) |
 | 83 | [Remove Duplicates from Sorted List](solutions/linked-lists/java/0083-remove-duplicates-from-sorted-list.java) | Linked List | Java | O(n) | O(1) |
 | 88 | [Merge Sorted Array](solutions/arrays/java/0088-merge-sorted-array.java) | Arrays / Two Pointers | Java | O(m + n) | O(1) |
+| 90 | [Subsets II](solutions/backtracking/java/0090-subsets-ii.java) | Backtracking | Java | O(n × 2ⁿ) | O(n × 2ⁿ) including output |
+| 110 | [Balanced Binary Tree](solutions/trees/java/0110-balanced-binary-tree.java) | Tree / DFS | Java | O(n) | O(h) |
 | 118 | [Pascal's Triangle](solutions/dynamic-programming/java/0118-pascals-triangle.java) | Dynamic Programming | Java | O(numRows²) | O(numRows) extra |
 | 121 | [Best Time to Buy and Sell Stock](solutions/arrays/java/0121-best-time-to-buy-and-sell-stock.java) | Arrays / Greedy | Java | O(n) | O(1) |
+| 122 | [Best Time to Buy and Sell Stock II](solutions/arrays/java/0122-best-time-to-buy-and-sell-stock-ii.java) | Arrays / Greedy | Java | O(n) | O(1) |
 | 125 | [Valid Palindrome](solutions/strings/java/0125-valid-palindrome.java) | Strings | Java | O(n²) | O(n) |
+| 127 | [Word Ladder](solutions/graphs/java/0127-word-ladder.java) | Graph / BFS | Java | O(N × L²) | O(N × L²) |
 | 128 | [Longest Consecutive Sequence](solutions/arrays/java/0128-longest-consecutive-sequence.java) | Arrays / Hash Set | Java | O(n) average | O(n) |
 | 136 | [Single Number](solutions/bit-manipulation/java/0136-single-number.java) | Bit Manipulation / XOR | Java | O(n) | O(1) |
 | 141 | [Linked List Cycle](solutions/linked-lists/java/0141-linked-list-cycle.java) | Linked List / Floyd's Cycle Detection | Java | O(n) | O(1) |
+| 151 | [Reverse Words in a String](solutions/strings/java/0151-reverse-words-in-a-string.java) | Strings | Java | O(n) | O(n) |
+| 152 | [Maximum Product Subarray](solutions/dynamic-programming/java/0152-maximum-product-subarray.java) | Dynamic Programming | Java | O(n) | O(1) |
+| 153 | [Find Minimum in Rotated Sorted Array](solutions/binary-search/java/0153-find-minimum-in-rotated-sorted-array.java) | Binary Search | Java | O(log n) | O(1) |
 | 169 | [Majority Element](solutions/arrays/java/0169-majority-element.java) | Arrays / Boyer–Moore | Java | O(n) | O(1) |
+| 179 | [Largest Number](solutions/strings/java/0179-largest-number.java) | Sorting / Greedy | Java | O(n log n × k) | O(n × k) |
+| 190 | [Reverse Bits](solutions/bit-manipulation/java/0190-reverse-bits.java) | Bit Manipulation | Java | O(1) | O(1) |
+| 198 | [House Robber](solutions/dynamic-programming/java/0198-house-robber.java) | Dynamic Programming | Java | O(n) | O(1) |
+| 202 | [Happy Number](solutions/math/java/0202-happy-number.java) | Math / Simulation | Java | O(log n) | O(1) |
 | 203 | [Remove Linked List Elements](solutions/linked-lists/java/0203-remove-linked-list-elements.java) | Linked List | Java | O(n) | O(1) |
 | 205 | [Isomorphic Strings](solutions/strings/java/0205-isomorphic-strings.java) | Strings / Hash Map | Java | O(n) | O(k) |
 | 217 | [Contains Duplicate](solutions/arrays/java/0217-contains-duplicate.java) | Arrays / Hash Set | Java | O(n) | O(n) |
 | 219 | [Contains Duplicate II](solutions/arrays/java/0219-contains-duplicate-ii.java) | Sliding Window / Hash Set | Java | O(n) | O(min(n, k)) |
 | 234 | [Palindrome Linked List](solutions/linked-lists/java/0234-palindrome-linked-list.java) | Linked List / Array | Java | O(n) | O(n) |
 | 238 | [Product of Array Except Self](solutions/arrays/java/0238-product-of-array-except-self.java) | Arrays / Prefix-Postfix | Java | O(n) | O(1) extra |
+| 239 | [Sliding Window Maximum](solutions/sliding-window/java/0239-sliding-window-maximum.java) | Sliding Window / Monotonic Deque | Java | O(n) | O(k) |
 | 242 | [Valid Anagram](solutions/strings/java/0242-valid-anagram.java) | Strings / Counting | Java | O(n) | O(1) |
 | 268 | [Missing Number](solutions/arrays/java/0268-missing-number.java) | Arrays / Sorting | Java | O(n log n) | O(log n) |
+| 300 | [Longest Increasing Subsequence](solutions/dynamic-programming/java/0300-longest-increasing-subsequence.java) | Dynamic Programming | Java | O(n²) | O(n) |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](solutions/dynamic-programming/java/0309-best-time-to-buy-and-sell-stock-with-cooldown.java) | Dynamic Programming | Java | O(n) | O(1) |
 | 344 | [Reverse String](solutions/strings/java/0344-reverse-string.java) | Strings / Two Pointers | Java | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](solutions/strings/java/0345-reverse-vowels-of-a-string.java) | Strings / Two Pointers | Java | O(n) | O(n) |
 | 347 | [Top K Frequent Elements](solutions/heaps/java/0347-top-k-frequent-elements.java) | Heap / Hash Map | Java | O(n log k) | O(n) |
+| 387 | [First Unique Character in a String](solutions/strings/java/0387-first-unique-character-in-a-string.java) | Strings / Counting | Java | O(n) | O(1) |
 | 392 | [Is Subsequence](solutions/strings/java/0392-is-subsequence.java) | Strings / Two Pointers | Java | O(\|t\|) | O(1) |
 | 405 | [Convert a Number to Hexadecimal](solutions/bit-manipulation/java/0405-convert-a-number-to-hexadecimal.java) | Bit Manipulation | Java | O(1) | O(1) |
 | 424 | [Longest Repeating Character Replacement](solutions/sliding-window/java/0424-longest-repeating-character-replacement.java) | Sliding Window | Java | O(n) | O(1) |
 | 500 | [Keyboard Row](solutions/strings/java/0500-keyboard-row.java) | Strings | Java | O(c) | O(w) output |
 | 507 | [Perfect Number](solutions/math/java/0507-perfect-number.java) | Math / Divisors | Java | O(n) | O(1) |
 | 509 | [Fibonacci Number](solutions/dynamic-programming/java/0509-fibonacci-number.java) | Dynamic Programming / Recursion | Java | O(2ⁿ) | O(n) |
+| 516 | [Longest Palindromic Subsequence](solutions/dynamic-programming/java/0516-longest-palindromic-subsequence.java) | Dynamic Programming | Java | O(n²) | O(n) |
 | 566 | [Reshape the Matrix](solutions/matrices/java/0566-reshape-the-matrix.java) | Matrix / Simulation | Java | O(m × n) | O(m × n) |
 | 567 | [Permutation in String](solutions/sliding-window/java/0567-permutation-in-string.java) | Sliding Window / Counting | Java | O(\|s1\| + \|s2\|) | O(1) |
+| 621 | [Task Scheduler](solutions/arrays/java/0621-task-scheduler.java) | Greedy / Counting | Java | O(t) | O(1) |
+| 647 | [Palindromic Substrings](solutions/dynamic-programming/java/0647-palindromic-substrings.java) | Dynamic Programming / Memoization | Java | O(n²) | O(n²) |
 | 680 | [Valid Palindrome II](solutions/strings/java/0680-valid-palindrome-ii.java) | Strings / Two Pointers | Java | O(n) | O(1) |
+| 704 | [Binary Search](solutions/binary-search/java/0704-binary-search.java) | Binary Search | Java | O(log n) | O(1) |
 | 705 | [Design HashSet](solutions/design/java/0705-design-hashset.java) | Design / ArrayList | Java | O(n) per operation | O(n) |
 | 706 | [Design HashMap](solutions/design/java/0706-design-hashmap.java) | Design / Parallel Lists | Java | O(n) per operation | O(n) |
+| 746 | [Min Cost Climbing Stairs](solutions/dynamic-programming/java/0746-min-cost-climbing-stairs.java) | Dynamic Programming | Java | O(n) | O(n) |
 | 953 | [Verifying an Alien Dictionary](solutions/strings/java/0953-verifying-an-alien-dictionary.java) | Strings / Hash Map | Java | O(c) | O(1) |
 | 1051 | [Height Checker](solutions/arrays/java/1051-height-checker.java) | Arrays / Sorting | Java | O(n log n) | O(n) |
+| 1143 | [Longest Common Subsequence](solutions/dynamic-programming/java/1143-longest-common-subsequence.java) | Dynamic Programming | Java | O(m × n) | O(m × n) |
+| 1572 | [Matrix Diagonal Sum](solutions/matrices/java/1572-matrix-diagonal-sum.java) | Matrix | Java | O(n) | O(1) |
 
-**Solved: 54**
+**Solved: 96**
 
 ## License
 
